@@ -20,7 +20,7 @@ io.on('connection', (socket) => {
 	// 	text:'Welcome To chat ',
 	// 	createdAt:new Date().getTime()
 	// });
-	socket.emit('newMessage',generateMessage('Admin','Welcome To chat App'));
+	socket.emit('newMessage',generateMessage('Badri','Welcome To chat App'));
 
 	// socket.broadcast.emit('newMessage',{
 	// 	from:'Admin',
